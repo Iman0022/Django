@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Is it New Year's?</title>
+        <link rel="stylesheet" href="{% static 'christmas/style.css' %}">
+    </head>
+    <body>
+        {% if christmas %} 
+        <!--this is how u do if statements in html-->
+            <h1>YES</h1>
+        {% else %}
+            <h1>NO</h1>
+        {% endif %} 
+        <!--end of if/else statement. No indentaion needed-->
+    </body>
+</html>
